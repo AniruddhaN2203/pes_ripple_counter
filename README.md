@@ -52,3 +52,19 @@ abc -liberty ../my_lib//lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 write_verilog -noattr pes_ripple_counter_net.v
 ```
+- Now using the netlist file, we verify the waveform once more
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/f7b30472-674a-4733-bff0-ce80e4fd3469)
+- To read the design and test bench file we must use the command
+```
+iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_ripple_counter.v pes_ripple_counter_tb.v
+```
+- Now we type ```./a.out``` to generate the .vcd file.
+- To see the waveform we type the command
+```
+gtkwave pes_ripco_tb.vcd
+```
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/f11dbe79-e382-4766-823a-6b5321c6b570)
+- The following waveform is generated.
+- THe sythesis and simulation are matching
