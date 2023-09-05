@@ -46,4 +46,6 @@ since it is a sequential design.
 abc -liberty ../my_lib//lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 - We type ```show``` to display the design.
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/204ff87b-01cd-4814-a2d8-0a17a74b6725)design
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/204ff87b-01cd-4814-a2d8-0a17a74b6725)
+
+Now let us s
