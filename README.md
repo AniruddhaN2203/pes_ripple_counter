@@ -24,7 +24,7 @@ Now we will synthesize the design and generate the netlist file.
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/5afde0eb-f9ad-4d7c-b976-983fcc643815)
 - Now we will import the cells from the library file by using the command
 ```
-read_liberty -lib ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 - We read the verilog file using
 ```
@@ -35,11 +35,11 @@ read_verilog pes_ripple_counter.v
 synth -top pes_ripco
 ```
 
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/f98df9e6-467e-43f2-ab9f-e053c583a160)
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/5f6f338c-4c83-4bbb-a7fd-e1fdbcd11ed5)
 - These are the results displayed.
 - We then use the command
 ```
-dfflibmap -liberty ../my_lb/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 since it is a sequential design.
 - We then map the library file to the design using
