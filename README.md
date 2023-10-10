@@ -1,7 +1,31 @@
 # pes_ripple_counter
 # Contents
+- [Iverilog and yosys installation](#iverilog-and-yosys-installation)
+- [GLS Process to verify Ripple Counter](#gls-process-to-verify-ripple-counter)
 
-## GLS Process to verify Ripple Counter
+## Iverilog and yosys Installation
+- To install iverilog and gtkwave we type the following
+```
+- sudo apt-get update
+- sudo apt-get install iverilog gtkwave
+```
+
+- To install yosys we type the following
+```
+- git clone https://github.com/YosysHQ/yosys.git
+- sudo apt install make
+- sudo apt-get install build-essential clang bison flex \
+   libreadline-dev gawk tcl-dev libffi-dev git \
+   graphviz xdot pkg-config python3 libboost-system-dev \
+   libboost-python-dev libboost-filesystem-dev zlib1g-dev
+```
+
+- Now we type ```cd yosys``` and go into the yosys folder.
+- Now we type
+```
+sudo make install
+```
+## GLS Process to Verify Ripple Counter
 
 First we will look at the waveform simulation of the program 
 
