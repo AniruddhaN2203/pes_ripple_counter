@@ -21,7 +21,7 @@ The waveform is obtained as follows.'
 
 Now we will synthesize the design and generate the netlist file.
 
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/de743bae-b8ff-489c-9a58-781f0abaffe8)
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/5afde0eb-f9ad-4d7c-b976-983fcc643815)
 - Now we will import the cells from the library file by using the command
 ```
 read_liberty -lib ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
