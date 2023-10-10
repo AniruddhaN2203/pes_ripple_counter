@@ -17,7 +17,7 @@ gtkwave pes_ripco_tb.vcd
 ```
 The waveform is obtained as follows.'
 
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/d746773b-15e4-44eb-b176-a489423bb13b)
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/ea9607da-e590-42cb-ae5e-3eecdac11cb2)
 
 Now we will synthesize the design and generate the netlist file.
 
