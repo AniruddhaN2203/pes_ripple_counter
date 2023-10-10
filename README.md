@@ -4,7 +4,8 @@
 
 First we will look at the waveform simulation of the program 
 
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/53cfa01e-09ab-437c-ab05-f5ac31abf402)
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/f861df6a-b520-4b3f-9d58-3d757d97e8b1)
+
 - We first read the design and testbench file using the command
 ```
 iverilog pes_ripple_counter.v pes_ripple_counter_tb.v
