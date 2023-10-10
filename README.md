@@ -37,11 +37,7 @@ synth -top pes_ripco
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/5f6f338c-4c83-4bbb-a7fd-e1fdbcd11ed5)
 - These are the results displayed.
-- We then use the command
-```
-dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-```
-since it is a sequential design.
+
 - We then map the library file to the design using
 ```
 abc -liberty ../my_lib//lib/sky130_fd_sc_hd__tt_025C_1v80.lib
