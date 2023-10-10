@@ -49,7 +49,7 @@ abc -liberty ../my_lib//lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 
 - We type ```show``` to display the design.
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/2b060e01-b0f6-4597-aefc-8dd682c0b045)
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/3bcbb83e-f4b3-459a-ab83-3127855a3e0f)
 
 - To generate the netlist file we must type the command
 ```
@@ -60,7 +60,7 @@ write_verilog -noattr pes_ripple_counter_net.v
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/f7b30472-674a-4733-bff0-ce80e4fd3469)
 - To read the design and test bench file we must use the command
 ```
-iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_ripple_counter.v pes_ripple_counter_tb.v
+iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_ripple_counter_net.v pes_ripple_counter_tb.v
 ```
 - Now we type ```./a.out``` to generate the .vcd file.
 - To see the waveform we type the command
