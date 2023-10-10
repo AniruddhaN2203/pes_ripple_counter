@@ -57,7 +57,7 @@ write_verilog -noattr pes_ripple_counter_net.v
 ```
 - Now using the netlist file, we verify the waveform once more
 
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/f7b30472-674a-4733-bff0-ce80e4fd3469)
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/48075ae5-566d-424b-b5e5-89bcb310a0b3)
 - To read the design and test bench file we must use the command
 ```
 iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_ripple_counter_net.v pes_ripple_counter_tb.v
@@ -68,6 +68,6 @@ iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_
 gtkwave pes_ripco_tb.vcd
 ```
 
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/f11dbe79-e382-4766-823a-6b5321c6b570)
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/dcde6159-6716-49bd-9122-2ffc550d5032)
 - The following waveform is generated.
-- THe sythesis and simulation are matching
+- THe synthesis and simulation are matching
