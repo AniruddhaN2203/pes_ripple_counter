@@ -59,14 +59,15 @@ read_verilog pes_ripple_counter.v
 ```
 synth -top pes_ripco
 ```
-
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/5f6f338c-4c83-4bbb-a7fd-e1fdbcd11ed5)
 - These are the results displayed.
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/90fd2c16-a4d0-487e-8b3b-af3366ef488c)
 
 - We then map the library file to the design using
 ```
 abc -liberty ../my_lib//lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/0f88e3d0-ef53-4692-8480-5ed39a0da491)
 
 
 - We type ```show``` to display the design.
