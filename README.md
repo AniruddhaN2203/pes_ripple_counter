@@ -68,10 +68,6 @@ synth -top pes_ripco
 abc -liberty ../my_lib//lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/6dd46bf7-2d63-4f16-96d5-5cb229cdae26)
-
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/1102d4a5-c672-418c-8d9a-979c9282d948)
-
 
 - We type ```show``` to display the design.
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/3bcbb83e-f4b3-459a-ab83-3127855a3e0f)
