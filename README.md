@@ -82,7 +82,7 @@ write_verilog -noattr pes_ripple_counter_net.v
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/48075ae5-566d-424b-b5e5-89bcb310a0b3)
 - To read the design and test bench file we must use the command
 ```
-iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v pes_ripple_counter_net.v pes_ripple_counter_tb.v
+iverilog ../verilog_model/primitives.v ../verilog_model/sky130_fd_sc_hd.v pes_ripple_counter_net.v pes_ripple_counter_tb.v
 ```
 - Now we type ```./a.out``` to generate the .vcd file.
 - To see the waveform we type the command
