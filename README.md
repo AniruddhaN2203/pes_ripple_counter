@@ -65,7 +65,7 @@ synth -top pes_ripco
 
 - We then map the library file to the design using
 ```
-abc -liberty ../my_lib//lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
 - We type ```show``` to display the design.
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/3bcbb83e-f4b3-459a-ab83-3127855a3e0f)
