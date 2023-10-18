@@ -1,7 +1,15 @@
 # pes_ripple_counter
 # Contents
+- [Ripple Counter](#ripple-counter)
 - [Iverilog and yosys installation](#iverilog-and-yosys-installation)
 - [GLS Process to verify Ripple Counter](#gls-process-to-verify-ripple-counter)
+
+## Ripple Counter
+A ripple counter is a type of digital counter circuit used in digital electronics to count clock pulses or events. It is also known as an asynchronous counter because the flip-flops or stages in the counter change their state asynchronously, meaning that the output of one flip-flop triggers the next one. Each flip-flop in the ripple counter is triggered by the output of the previous flip-flop, causing a ripple effect.
+
+The most common type of ripple counter is the binary counter, which is used to count in binary (base-2) representation. It can have two or more flip-flops connected in a chain, with each flip-flop representing a different bit in the binary count. For example, a 3-bit binary ripple counter has three flip-flops, and it can count from 000 (binary) to 111 (binary) before rolling over to 000 again.
+
+Ripple counters are often used in applications where the speed and precision of counting are not critical, and simplicity and minimal component count are more important. In cases where precise and synchronous counting is required, synchronous counters, which use a common clock signal to trigger all flip-flops simultaneously, are preferred.
 
 ## Iverilog and yosys Installation
 - To install iverilog and gtkwave we type the following
@@ -56,9 +64,7 @@ synth -top pes_ripco
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/90fd2c16-a4d0-487e-8b3b-af3366ef488c)
 
 ```
-dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-
 ```
 - We type ```show``` to display the design.
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/3bcbb83e-f4b3-459a-ab83-3127855a3e0f)
