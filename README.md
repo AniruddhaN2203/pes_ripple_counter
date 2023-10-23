@@ -3,7 +3,7 @@
 - [Ripple Counter](#ripple-counter)
 - [Iverilog and yosys installation](#iverilog-and-yosys-installation)
 - [GLS Process to verify Ripple Counter](#gls-process-to-verify-ripple-counter)
-- [Insallation of ngspice, magic and OpenLANE](#installation-of-ngspice,-magic-and-openlane)
+- [Installation of ngspice, magic and OpenLANE](#installation-of-ngspice,-magic-and-openlane)
 - OpenLANE Design
 
 ## Ripple Counter
