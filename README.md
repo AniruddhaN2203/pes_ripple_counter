@@ -3,6 +3,8 @@
 - [Ripple Counter](#ripple-counter)
 - [Iverilog and yosys installation](#iverilog-and-yosys-installation)
 - [GLS Process to verify Ripple Counter](#gls-process-to-verify-ripple-counter)
+- [Insallation of ngspice, magic and OpenLANE](#installation-of-ngspice,-magic-and-openlane)
+- OpenLANE Design
 
 ## Ripple Counter
 A ripple counter is a type of digital counter circuit used in digital electronics to count clock pulses or events. It is also known as an asynchronous counter because the flip-flops or stages in the counter change their state asynchronously, meaning that the output of one flip-flop triggers the next one. Each flip-flop in the ripple counter is triggered by the output of the previous flip-flop, causing a ripple effect.
