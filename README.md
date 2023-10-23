@@ -93,7 +93,7 @@ gtkwave pes_ripco_tb.vcd
 ## Insallation of ngspice, magic and OpenLANE
 
 **ngspice**
-- Download the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory, unpack it using:
+- Download the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory
 ```
 cd $HOME
 sudo apt-get install libxaw7-dev
