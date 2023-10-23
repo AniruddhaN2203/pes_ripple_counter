@@ -3,8 +3,8 @@
 - [Ripple Counter](#ripple-counter)
 - [Iverilog and yosys installation](#iverilog-and-yosys-installation)
 - [GLS Process to verify Ripple Counter](#gls-process-to-verify-ripple-counter)
-- [Installation of ngspice, magic and OpenLANE](#installation-of-ngspice,-magic-and-openlane)
-- OpenLANE Design
+- [Installation of ngspice magic and OpenLANE](#installation-of-ngspice-magic-and-openlane)
+- [OpenLANE Flow](#openlane-flow)
 
 ## Ripple Counter
 A ripple counter is a type of digital counter circuit used in digital electronics to count clock pulses or events. It is also known as an asynchronous counter because the flip-flops or stages in the counter change their state asynchronously, meaning that the output of one flip-flop triggers the next one. Each flip-flop in the ripple counter is triggered by the output of the previous flip-flop, causing a ripple effect.
@@ -92,7 +92,7 @@ gtkwave pes_ripco_tb.vcd
 - The following waveform is generated.
 - THe synthesis and simulation are matching
 
-## Installation of ngspice, magic and OpenLANE
+## Installation of ngspice magic and OpenLANE
 
 **ngspice**
 - Download the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory
@@ -142,7 +142,6 @@ sudo docker run hello-world
 sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo reboot 
-
 # After reboot
 docker run hello-world (should show you the output under 'Example Output' in https://hub.docker.com/_/hello-world)
 
@@ -153,4 +152,18 @@ cd OpenLane
 make
 make test
 ```
-hi
+
+## OpenLANE Flow
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/f900f851-61f7-4174-bf3a-a73a121bf972)
+- First we create a folder under the name of our design in the 'designs' folder.
+- Do ```cd pes_ripple_counter```.
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/2e9df8ba-48c4-4a43-8db6-0b56b7ce6b09)
+- Here we create a config.json file.
+- We make a new directory called 'src'.
+- Do ```cd src```
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/46f0b83b-d9f6-4eac-9e33-08fa63960fbc)
+- We add the following files to this directory.
+- All these files are found above in   
