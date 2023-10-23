@@ -166,4 +166,18 @@ make test
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/46f0b83b-d9f6-4eac-9e33-08fa63960fbc)
 - We add the following files to this directory.
-- All these files are found above in   
+- All these files are found above in the 'pes_ripple_counter' folder.
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/fe51669c-cd8a-4642-8fab-1e7b351e1eec)
+- Now in the main 'Openlane' directory type ```mkdir pdks```.
+- Copy paste the above file in it. Found in the verilog_model folder above.
+
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/e361d6df-47a1-4746-8dab-44459d9fb7fe)
+- Type ```make mount``` in the main Openlane folder.
+- Then type ```./flow.tcl -interactive```.
+- To prep the design type
+```
+prep -design pes_ripple_counter
+```
+
