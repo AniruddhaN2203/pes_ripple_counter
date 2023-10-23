@@ -92,7 +92,7 @@ gtkwave pes_ripco_tb.vcd
 - The following waveform is generated.
 - THe synthesis and simulation are matching
 
-## Insallation of ngspice, magic and OpenLANE
+## Installation of ngspice, magic and OpenLANE
 
 **ngspice**
 - Download the tarball from https://sourceforge.net/projects/ngspice/files/ to a local directory
