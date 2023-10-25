@@ -172,7 +172,6 @@ make test
 - Now in the main 'Openlane' directory type ```mkdir pdks```.
 - Copy paste the above file in it. Found in the verilog_model folder above.
 
-
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/e361d6df-47a1-4746-8dab-44459d9fb7fe)
 - Type ```make mount``` in the main Openlane folder.
 - Then type ```./flow.tcl -interactive```.
@@ -181,3 +180,9 @@ make test
 prep -design pes_ripple_counter
 ```
 
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/6a2bfa9d-9995-461d-9d46-76fae801e0a1)
+
+- Type
+```
+run_synthesis
+```
