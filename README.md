@@ -186,3 +186,6 @@ prep -design pes_ripple_counter
 ```
 run_synthesis
 ```
+
+**Physical Cells**
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/914576cc-936c-4dfe-a5e2-7bcc202fd4b9)
