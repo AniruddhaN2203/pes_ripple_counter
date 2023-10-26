@@ -188,4 +188,5 @@ run_synthesis
 ```
 
 **Physical Cells**
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/914576cc-936c-4dfe-a5e2-7bcc202fd4b9)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/cd0f869e-0721-4b5f-a26d-aa73419588b1)
