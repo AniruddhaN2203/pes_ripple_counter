@@ -245,3 +245,16 @@ run_cts
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/e60d59e2-8f8e-47aa-820c-bb658edb5250)
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/df452773-4ed0-4649-9a50-805eb63a93fc)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/c16382f2-3882-4ffc-b899-b0c55a400130)
+
+**Power Report**
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/77987d2a-c134-4fc7-8f66-54c230428a20)
+
+**Skew Report**
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/7044adf2-01a3-4f3e-aa34-2cc1f27956bb)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/60f1e27d-5696-421b-a4c0-9eb3f92caed2)
+
+**Area Report**
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/2b21b664-9cec-4bb2-9935-bb45d16b78df)
