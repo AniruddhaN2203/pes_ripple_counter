@@ -243,3 +243,5 @@ run_cts
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/8eae23c8-17c7-4cd5-9a4f-7f38cf5cad36)
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/e60d59e2-8f8e-47aa-820c-bb658edb5250)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/df452773-4ed0-4649-9a50-805eb63a93fc)
