@@ -182,6 +182,7 @@ prep -design pes_ripple_counter
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/6a2bfa9d-9995-461d-9d46-76fae801e0a1)
 
+#### Synthesis
 - Type
 ```
 run_synthesis
@@ -191,6 +192,7 @@ run_synthesis
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/cd0f869e-0721-4b5f-a26d-aa73419588b1)
 
+#### Floorplan
 - Now to run the floorplan we type
 ```
 run_floorplan
@@ -206,6 +208,7 @@ magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/848bb470-d498-4bb9-875c-a018501a82e4)
 
+#### Placement
 - Now to run the placement we type
 ```
 run_placement
@@ -220,7 +223,8 @@ magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/fa36a659-8c83-4d7a-95a3-5a8499836df2)
 
-- Now to run cts(clock tree synthesis) we type
+#### CTS(Clock Tree Synthesis)
+- Now to run cts we type
 ```
 run_cts
 ```
@@ -258,3 +262,20 @@ run_cts
 
 **Area Report**
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/2b21b664-9cec-4bb2-9935-bb45d16b78df)
+
+#### Routing
+- Now to run routing we type
+```
+run_rounting
+```
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/3a1d50b9-7601-49eb-a169-f5bc68fd7ba9)
+
+- To view the design we type
+```
+magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_ripco.def &
+```
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/b8050a63-5b18-499d-aa94-7e2d9e92bdf6)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/4568397a-c4ef-4b03-8fca-92289c2fdb0c)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/b4d79c44-36a6-4790-a2cb-b00f99ed7fec)
