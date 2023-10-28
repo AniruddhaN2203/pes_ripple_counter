@@ -190,3 +190,18 @@ run_synthesis
 **Physical Cells**
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/cd0f869e-0721-4b5f-a26d-aa73419588b1)
+
+- Now to run the floorplan we type
+```
+run_floorplan
+```
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/8ddc3d10-3739-42f1-8b23-4c70416df230)
+
+
+- To view the design we type
+```
+magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_ripco.def &
+```
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/5a65f42a-a96c-4636-a0d9-b93a6d929d9c)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/848bb470-d498-4bb9-875c-a018501a82e4)
