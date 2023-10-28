@@ -192,7 +192,7 @@ run_synthesis
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/cd0f869e-0721-4b5f-a26d-aa73419588b1)
 
-#### Floorplan
+### Floorplan
 - Now to run the floorplan we type
 ```
 run_floorplan
