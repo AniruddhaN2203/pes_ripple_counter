@@ -235,3 +235,11 @@ run_cts
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/a8be3f87-4dd3-48d9-9071-f358b87694ca)
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/02a278bc-7774-4c13-b6ef-ddb258bf9a6b)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/c48c2700-5b64-4e18-b3ab-a03c1eeb6f5f)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/6e9e50a6-5f4b-40e8-a445-feea6b6d45b9)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/8eae23c8-17c7-4cd5-9a4f-7f38cf5cad36)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/e60d59e2-8f8e-47aa-820c-bb658edb5250)
