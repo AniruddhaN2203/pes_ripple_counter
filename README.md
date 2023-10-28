@@ -227,8 +227,11 @@ run_cts
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/61245018-46f9-4828-9031-bcdf653baa94)
 
 - The reports generated are given below
+
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/322dc364-79e1-4811-9588-3251e17dd9bf)
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/92e2e269-4af2-4321-af16-e77c0bf17b4b)
 
-![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/0d9a14cc-d755-42d0-8922-d4c53dee6052)
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/a8be3f87-4dd3-48d9-9071-f358b87694ca)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/02a278bc-7774-4c13-b6ef-ddb258bf9a6b)
