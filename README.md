@@ -288,3 +288,4 @@ magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef
 
 **Summary Report and Area Report**
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/8f9ee540-2e56-4fa8-8fad-a8760285ba93)
+
