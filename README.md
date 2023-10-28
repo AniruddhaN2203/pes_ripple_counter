@@ -205,3 +205,17 @@ magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/5a65f42a-a96c-4636-a0d9-b93a6d929d9c)
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/848bb470-d498-4bb9-875c-a018501a82e4)
+
+- Now to run the placement we type
+```
+run_placement
+```
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/d9d2c01c-471f-44a1-a9c5-b6d1d16d1cba)
+
+- To view the design we type
+```
+magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_ripco.def &
+```
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/385ad16f-12d0-4ac2-a1c3-ae3efab14dde)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/fa36a659-8c83-4d7a-95a3-5a8499836df2)
