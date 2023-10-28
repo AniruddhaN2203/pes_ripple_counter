@@ -290,8 +290,8 @@ magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/8f9ee540-2e56-4fa8-8fad-a8760285ba93)
 
 **Statistics**
-- Area =
-- Internal Power = 
-- Switching Power = 
-- Leakage Power = 
-- Total Power = 
+- Area = 351.155 um2
+- Internal Power = 2.04e-06 W
+- Switching Power = 4.86e-07
+- Leakage Power = 8.17e-11
+- Total Power = 2.52e-06
