@@ -219,3 +219,16 @@ magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/385ad16f-12d0-4ac2-a1c3-ae3efab14dde)
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/fa36a659-8c83-4d7a-95a3-5a8499836df2)
+
+- Now to run cts(clock tree synthesis) we type
+```
+run_cts
+```
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/61245018-46f9-4828-9031-bcdf653baa94)
+
+- The reports generated are given below
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/322dc364-79e1-4811-9588-3251e17dd9bf)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/92e2e269-4af2-4321-af16-e77c0bf17b4b)
+
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/0d9a14cc-d755-42d0-8922-d4c53dee6052)
