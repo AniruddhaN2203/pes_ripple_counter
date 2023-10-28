@@ -279,3 +279,12 @@ magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/4568397a-c4ef-4b03-8fca-92289c2fdb0c)
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/b4d79c44-36a6-4790-a2cb-b00f99ed7fec)
+
+**Congestion Report**
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/3710defc-00e6-4961-a25f-f0bd8a5bb3bc)
+
+**Power and Clock Skew Report**
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/2562225a-75d6-4c4d-a964-fc3757a01b26)
+
+**Summary Report and Area Report**
+![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/8f9ee540-2e56-4fa8-8fad-a8760285ba93)
