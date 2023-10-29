@@ -266,7 +266,7 @@ run_cts
 ### Routing
 - Now to run routing we type
 ```
-run_rounting
+run_routing
 ```
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/3a1d50b9-7601-49eb-a169-f5bc68fd7ba9)
 
