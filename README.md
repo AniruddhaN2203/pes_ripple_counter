@@ -191,6 +191,7 @@ run_synthesis
 **Physical Cells**
 
 ![image](https://github.com/AniruddhaN2203/pes_ripple_counter/assets/142299140/cd0f869e-0721-4b5f-a26d-aa73419588b1)
+- Flop Ratio = 2/6 = 0.33
 
 ### Floorplan
 - Now to run the floorplan we type
