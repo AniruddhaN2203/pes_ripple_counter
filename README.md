@@ -292,7 +292,7 @@ magic -T /home/aniruddhan/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef
 
 **Statistics**
 - Area = 351.155 um2
-- Internal Power = 2.04e-06 W
-- Switching Power = 4.86e-07
-- Leakage Power = 8.17e-11
-- Total Power = 2.52e-06
+- Internal Power = 2.08e-06 W
+- Switching Power = 5.18e-07
+- Leakage Power = 8.24e-11
+- Total Power = 2.59e-06
